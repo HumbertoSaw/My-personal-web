@@ -7,6 +7,7 @@ body {
 	font-weight: bold;
 	background-color:#FFFFFF  ;
 }
+
 header{
 	position: relative;
 	background-color: #FFFFFF;
@@ -15,18 +16,13 @@ header{
 	height: 13%;
 	margin: 0px auto;
 }
-container-navbar{		
-	color: white;
-	width: 100%;
-	height: 6%;
-	margin: 0px auto;
-}
-container-navbar-brand{
-	float: left;
-}
+
 nav{
+	height: 50px;
 	background-color: #286B92;
 }
+
+
 footer{
 	position: relative;
 	background-color: #FFFFFF;
