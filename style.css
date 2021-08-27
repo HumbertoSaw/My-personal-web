@@ -1,3 +1,6 @@
+header, section, footer, aside, nav, article{
+	display: block;
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -5,8 +8,18 @@ body {
 	height: 100%;
 	font-family: Verdana;
 	font-weight: bold;
-	background-color:#FFFFFF  ;
+	background-color:#FFFFFF;
 }
+
+.agrupar{
+	width: 980px;	
+	margin: auto;
+}
+
+.section{
+	background-color: #F7F7F7;
+}
+
 header{
 	position: relative;
 	background-color: #FFFFFF;
@@ -17,17 +30,18 @@ header{
 }
 
 nav{
-	font-weight: bold;
-	text-transform: uppercase;
+	font-weight: bold;	
 	width: 100%;	
 	height: 60px;
 	background-color: #286B92;
 }
+
 /* Estilos del div del espacio de navegacion*/
 .navbar {
 
 }
 #brand{
+	text-transform: uppercase;
 	font-size: 20px;
 	padding: 15px;
 }
@@ -35,6 +49,7 @@ nav{
 	padding-right: 25px;
 	padding: 15px;
 }
+
 /* Estilos de cada boton de el menu del espacio de navegacion */
 .buton{
 
@@ -52,7 +67,28 @@ nav{
 	padding: 15px;
 }
 
+/* Estilos para el contenido del centro y del lado*/
 
+/*.aside{
+	float: left;
+	padding: 15px;
+	margin: 15px;
+	width: 300px;
+	border: 1px solid black;
+}*/
+
+.section{
+	width: 560px;
+	text-align: center;
+	float: right;
+	padding: 15px;
+	margin: 15px;
+	border: 1px solid black;
+}
+
+
+
+/* Estilos del footer */
 
 footer{
 	text-align: center;
@@ -63,7 +99,11 @@ footer{
 	height: 5%;
 	margin: 0px auto;
 }
+.pie{
+	clear: both;
+}
 
+/* Color de links */
 
 a:link {color:#FFFAFA; text-decoration: none;}  /* unvisited link */
 
