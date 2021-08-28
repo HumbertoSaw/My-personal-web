@@ -11,15 +11,6 @@ body {
 	background-color:#FFFFFF;
 }
 
-.agrupar{
-	width: 980px;	
-	margin: auto;
-}
-
-.section{
-	background-color: #F7F7F7;
-}
-
 header{
 	position: relative;
 	background-color: #FFFFFF;
@@ -33,7 +24,7 @@ nav{
 	font-weight: bold;	
 	width: 100%;	
 	height: 60px;
-	background-color: #286B92;
+	background-color: #22658C;
 }
 
 /* Estilos del div del espacio de navegacion*/
@@ -69,24 +60,24 @@ nav{
 
 /* Estilos para el contenido del centro y del lado*/
 
-/*.aside{
-	float: left;
-	padding: 15px;
-	margin: 15px;
-	width: 300px;
-	border: 1px solid black;
-}*/
-
 .section{
-	width: 560px;
-	text-align: center;
-	float: right;
-	padding: 15px;
-	margin: 15px;
-	border: 1px solid black;
+
+	width: auto;
+	text-align: right;
+	background-color: #FFFFFF;
+}
+.agrupar {
+	width: 1150px;	
+	margin: auto;
 }
 
+.img_creador{
+	float: left;
+}
 
+.texto-AboutMe{
+
+}
 
 /* Estilos del footer */
 
