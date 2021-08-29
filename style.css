@@ -58,25 +58,71 @@ nav{
 	padding: 15px;
 }
 
-/* Estilos para el contenido del centro y del lado*/
+/* Estilos para el contenido del centro y del lado 1*/
 
-.section{
-
+.section1{
+	padding-top: 50px;
 	width: auto;
+	height: 500px;
 	text-align: right;
 	background-color: #FFFFFF;
 }
-.agrupar {
+.agrupar1 {
 	width: 1150px;	
 	margin: auto;
 }
-
-.img_creador{
+.img-text{
 	float: left;
+	text-align: center;
 }
 
 .texto-AboutMe{
 
+}
+
+/* Estilos para el contenido del centro y del lado 2*/
+
+.section2{
+	padding-top: 50px;
+	width: auto;
+	height: 500px;
+	text-align: right;
+	background-color: #EAEAEA;
+}
+.agrupar2 {
+	width: 1150px;	
+	margin: auto;
+}
+.proyectos{
+	float: left;
+	text-align: center;
+}
+
+.texto-proyectos{
+	float: right;
+}
+
+/* Estilos para el contenido del centro y del lado 3*/
+
+.section3{
+	padding-top: 50px;
+	width: auto;
+	height: 500px;
+	text-align: right;
+	background-color: #FFFFFF;
+}
+.agrupar3{
+	width: 1150px;	
+	margin: auto;
+}
+.contacto{
+	float: left;
+	text-align: center;
+}
+
+.texto-contacto{
+	color: black;
+	float: right;
 }
 
 /* Estilos del footer */
@@ -89,6 +135,7 @@ footer{
 	width: 100%;
 	height: 5%;
 	margin: 0px auto;
+	padding-bottom: 30px;
 }
 .pie{
 	clear: both;
@@ -100,7 +147,7 @@ a:link {color:#FFFAFA; text-decoration: none;}  /* unvisited link */
 
 a:visited {color:#FFFAFA; text-decoration: none;}  /* visited link */
 
-a:hover {color:#FFFAFA; text-decoration: none;}  /* mouse over link */
+a:hover {color:#A0A0A0; text-decoration: none;}  /* mouse over link */
 
 a:active {color:#FFFAFA; text-decoration: none;}  /* selected link */
 
