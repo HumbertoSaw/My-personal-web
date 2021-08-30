@@ -76,7 +76,7 @@ nav{
 	margin: auto;
 }
 .img-text{
-
+	padding-right: 80px;
 	font-family: Verdana;
 	float: left;
 	text-align: center;
@@ -93,7 +93,7 @@ nav{
 	font-family: Cambria;
 	padding-top: 50px;
 	width: auto;
-	height: 500px;
+	height: 250px;
 	text-align: right;
 	background-color: #EAEAEA;
 }
@@ -107,6 +107,7 @@ nav{
 }
 
 .texto-proyectos{
+	padding-right: 550px;
 	text-align: justify;
 	font-size: 25px;
 	float: right;
@@ -118,7 +119,7 @@ nav{
 	font-family: Cambria;
 	padding-top: 50px;
 	width: auto;
-	height: 500px;
+	height: 250px;
 	text-align: right;
 	background-color: #FFFFFF;
 }
@@ -132,15 +133,16 @@ nav{
 }
 
 .texto-contacto{
+	padding-right: 655px;
 	text-align: justify;
 	font-size: 25px;
-	color: black;
 	float: right;
 }
 
 /* Estilos del footer */
 
 footer{
+	font-family: Verdana;
 	text-align: center;
 	position: relative;
 	background-color: #FFFFFF;
