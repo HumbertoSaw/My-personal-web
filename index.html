@@ -5,18 +5,10 @@
 	<title>Humberto's personal web</title>
 	<meta name="descripcion" content="Born To Support">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
 
 <body class="body">
-	<script>
-		const botonIrArriba = document.querySelector("#botonIrArriba");
-
-		botonIrArriba.addEventListener("click", function(){
-
-			$("html", "body").animate({scrollTop:0}, "slow");		
-		});
-	</script>
-	
 	
 	<nav>
 			<div class="navbar" id="brand" style=" float: left;">
@@ -26,7 +18,7 @@
 			<div class="navbar" id="menu" style=" float: right;">
 
 				<button id="botonIrArriba">
-					<i>Home</i>
+					Home
 				</button>
 					
 				<a class="buton" id="proyectos" href="#proyects" align="right">Proyects</a>
@@ -137,6 +129,20 @@
 				</div>	
 			</div>		
 		</section>
+
+		<script>
+			const botonIrArriba = document.querySelector("#botonIrArriba");
+
+			botonIrArriba.addEventListener("click", function(){
+				console.log('test');
+				window.scrollTo({
+					top:0,
+					left:0,
+					behavior: "smooth"
+
+				})		
+			});
+		</script>
 
 	<footer class="pie">
 		Created by Humberto S. in 2021
