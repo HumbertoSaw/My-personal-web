@@ -8,8 +8,15 @@
 </head>
 
 <body class="body">
-	<a name="home"></a>
+	<script>
+		const botonIrArriba = document.querySelector("#botonIrArriba");
 
+		botonIrArriba.addEventListener("click", function(){
+
+			$("html", "body").animate({scrollTop:0}, "slow");		
+		});
+	</script>
+	
 	
 	<nav>
 			<div class="navbar" id="brand" style=" float: left;">
@@ -17,8 +24,11 @@
 			</div>
 
 			<div class="navbar" id="menu" style=" float: right;">
-				
-				<a class="buton" id="home" href="#home" align="right">Home</a>		
+
+				<button id="botonIrArriba">
+					<i>Home</i>
+				</button>
+					
 				<a class="buton" id="proyectos" href="#proyects" align="right">Proyects</a>
 				<a class="buton" id="contacto" href="#contact" align="right">Contact</a>				
 			</div>		
