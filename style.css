@@ -30,9 +30,17 @@ nav{
 	background-color: #114666 ;
 }
 #botonIrArriba{
-	
+	padding-right: 25px;
+	font-size: 15px;
+	background: transparent;
+	font-family: Verdana;
+	font-weight: bold;
+	color: white;
+	border: none;
 }
-
+#botonIrArriba:hover{
+	color: #A0A0A0;
+}
 /* Estilos del div del espacio de navegacion*/
 .navbar {
 
