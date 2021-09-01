@@ -29,6 +29,8 @@ nav{
 	height: 60px;
 	background-color: #114666 ;
 }
+
+/* Botones del navegador */
 #botonIrArriba{
 	padding-right: 25px;
 	font-size: 15px;
@@ -41,10 +43,34 @@ nav{
 #botonIrArriba:hover{
 	color: #A0A0A0;
 }
-/* Estilos del div del espacio de navegacion*/
-.navbar {
 
+#botonIrProyectos{
+	padding-right: 25px;
+	font-size: 15px;
+	background: transparent;
+	font-family: Verdana;
+	font-weight: bold;
+	color: white;
+	border: none;
 }
+#botonIrProyectos:hover{
+	color: #A0A0A0;
+}
+
+#botonIrContactos{
+	padding-right: 25px;
+	font-size: 15px;
+	background: transparent;
+	font-family: Verdana;
+	font-weight: bold;
+	color: white;
+	border: none;
+}
+#botonIrContactos:hover{
+	color: #A0A0A0;
+}
+
+/* Estilos del div del espacio de navegacion*/
 #brand{
 	text-transform: uppercase;
 	font-size: 20px;
@@ -55,31 +81,13 @@ nav{
 	padding: 15px;
 }
 
-/* Estilos de cada boton de el menu del espacio de navegacion */
-.buton{
-
-}
-#home{
-	font-size: 15px;
-	padding: 15px;
-}
-#proyectos{
-	font-size: 15px;
-	padding: 15px;
-}
-#contacto{
-	font-size: 15px;
-	padding: 15px;
-}
-
 /* Estilos para el contenido del centro y del lado 1*/
-
 .section1{
 	font-size: ;
 	font-family: Cambria;
 	padding-top: 50px;
 	width: auto;
-	height: 500px;
+	height: 600px;
 	text-align: right;
 	background-color: #FFFFFF;
 }
@@ -105,7 +113,7 @@ nav{
 	font-family: Cambria;
 	padding-top: 50px;
 	width: auto;
-	height: 500px;
+	height: 600px;
 	text-align: right;
 	background-color: #EAEAEA;
 }
@@ -131,7 +139,7 @@ nav{
 	font-family: Cambria;
 	padding-top: 50px;
 	width: auto;
-	height: 500px;
+	height: 600px;
 	text-align: right;
 	background-color: #FFFFFF;
 }
