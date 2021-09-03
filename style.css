@@ -70,6 +70,19 @@ nav{
 	color: #A0A0A0;
 }
 
+#botonRecargar{
+	padding-right: 25px;
+	font-size: 20px;
+	background: transparent;
+	font-family: Verdana;
+	font-weight: bold;
+	color: white;
+	border: none;
+}
+#botonRecargar:hover{
+	color: #A0A0A0;
+}
+
 /* Estilos del div del espacio de navegacion*/
 #brand{
 	text-transform: uppercase;

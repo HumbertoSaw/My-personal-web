@@ -33,3 +33,9 @@ botonIrContactos.addEventListener("click", function(){
 
 	})		
 });
+
+const botonRecargar = document.querySelector("#botonRecargar");
+botonRecargar.addEventListener("click", function(){
+	window.location.reload();
+
+});
