@@ -29,6 +29,10 @@ nav{
 	height: 60px;
 	background-color: #114666 ;
 }
+#agruparNav {
+	width: 1150px;	
+	margin: auto;
+}
 
 /* Botones del navegador */
 #botonIrArriba{
