@@ -29,6 +29,7 @@ header nav{
 }
 /*Estilos basicos del nav*/
 nav{
+	margin-left: 250px;
 	flex: 1;
 }
 nav ul li{
@@ -71,7 +72,7 @@ nav ul li a:hover{
 }
 
 /*Media query para resoluciones de medianas*/
-@media(max-width: 693px){
+@media(max-width: 942px){
 	.principalContainer{
 		background-color: blue;
 	}
@@ -85,6 +86,7 @@ nav ul li a:hover{
 	header nav{
 		text-align: center;
 		display: block;
+		margin-left: 0px;
 	}
 }
 
