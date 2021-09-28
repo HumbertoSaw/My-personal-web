@@ -1,13 +1,14 @@
+/* Aplicacion de estilos globales */
 header, section, footer, aside, nav, article{
 	color: #2C2C2C;
 	display: block;
 }
+/* Aplicacion de estilos de partes de html*/
 body {
 	margin: 0;
 	padding: 0;
 	width: auto;
 	height: 100%;
-	
 	background-color:#FFFFFF;
 }
 
@@ -29,12 +30,13 @@ nav{
 	height: 60px;
 	background-color: #114666 ;
 }
+
+/* Botones del navegador y agrupacion del navegador*/
 #agruparNav {
 	width: 1300px;	
 	margin: auto;
 }
 
-/* Botones del navegador */
 #botonIrArriba{
 	padding-right: 25px;
 	font-size: 15px;
@@ -86,8 +88,6 @@ nav{
 #botonRecargar:hover{
 	color: #A0A0A0;
 }
-
-/* Estilos del div del espacio de navegacion*/
 #brand{
 	text-transform: uppercase;
 	font-size: 20px;
@@ -98,7 +98,13 @@ nav{
 	padding: 15px;
 }
 
-/* Estilos para el contenido del centro y del lado 1*/
+/* Agrupacion de el cuerpo de la pagina*/
+.agruparCuerpo {
+	width: 1150px;	
+	margin: auto;
+}
+
+/* Estilos para las secciones y el texto dentro de estas*/
 .section1{
 	font-size: ;
 	font-family: Cambria;
@@ -108,23 +114,16 @@ nav{
 	text-align: right;
 	background-color: #FFFFFF;
 }
-.agrupar1 {
-	width: 1150px;	
-	margin: auto;
-}
-.img-text{
+.imgMe{
 	padding-right: 80px;
 	font-family: Verdana;
 	float: left;
 	text-align: center;
 }
-
-.texto-AboutMe{
+.textAboutMe{
 	text-align: justify;
 	font-size: 25px;
 }
-
-/* Estilos para el contenido del centro y del lado 2*/
 
 .section2{
 	font-family: Cambria;
@@ -134,23 +133,17 @@ nav{
 	text-align: right;
 	background-color: #EAEAEA;
 }
-.agrupar2 {
-	width: 1150px;	
-	margin: auto;
-}
 .proyectos{
 	float: left;
 	text-align: center;
 }
-
-.texto-proyectos{
+.textoProyectos{
 	padding-right: 550px;
 	text-align: justify;
 	font-size: 25px;
 	float: right;
 }
 
-/* Estilos para el contenido del centro y del lado 3*/
 
 .section3{
 	font-family: Cambria;
@@ -160,16 +153,11 @@ nav{
 	text-align: right;
 	background-color: #FFFFFF;
 }
-.agrupar3{
-	width: 1150px;	
-	margin: auto;
-}
 .contacto{
 	float: left;
 	text-align: center;
 }
-
-.texto-contacto{
+.textoContacto{
 	padding-right: 655px;
 	text-align: justify;
 	font-size: 25px;
