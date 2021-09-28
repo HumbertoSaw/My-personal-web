@@ -54,20 +54,38 @@ nav ul li a:hover{
 		"main"
 		"footer";
 }
-/*Grid de header*/
+/*Estilos de clase de header*/
 .header{
 	background: lightpink;
 	grid-area: header;
 }
-/*Grid de main*/
+/*Estilos de clase de main*/
 .main{
 	background: lightblue;
 	grid-area: main;
 }
-/*Grid de footer*/
+/*Estilos de clase de footer*/
 .footer{
 	background: lightyellow;
 	grid-area: footer;
+}
+
+/*Media query para resoluciones de medianas*/
+@media(max-width: 693px){
+	.principalContainer{
+		background-color: blue;
+	}
+	header{
+		align-items: center;
+	}
+	header h1{
+		text-align: center;
+		display: block;
+	}
+	header nav{
+		text-align: center;
+		display: block;
+	}
 }
 
 
