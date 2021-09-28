@@ -1,193 +1,73 @@
 /* Aplicacion de estilos globales */
-header, section, footer, aside, nav, article{
-	color: #2C2C2C;
-	display: block;
-}
-/* Aplicacion de estilos de partes de html*/
-body {
-	margin: 0;
-	padding: 0;
-	width: auto;
+html{
 	height: 100%;
-	background-color:#FFFFFF;
 }
-
+* {
+	box-sizing: border-box;
+	margin:  0;
+	padding: 0;
+}
+/*Estilos basicos del body*/
+body{
+	max-width: 60em;
+	margin: 0 auto;
+}
+/*Estilos basicos del header*/
 header{
-	position: relative;
-	background-color: #FFFFFF;
-	color: black;
-	width: 100%;
-	height: 13%;
-	margin: 0px auto;
+	align-items: center;
+	display: block;
+	background: skyblue;
 }
-
-nav{
-	position: fixed;
-	font-weight: bold;
-	font-family: Verdana;
-	font-weight: bold;	
-	width: 100%;	
-	height: 60px;
-	background-color: #114666 ;
-}
-
-/* Botones del navegador y agrupacion del navegador*/
-#agruparNav {
-	width: 1300px;	
-	margin: auto;
-}
-
-#botonIrArriba{
-	padding-right: 25px;
-	font-size: 15px;
-	background: transparent;
-	font-family: Verdana;
-	font-weight: bold;
-	color: white;
-	border: none;
-}
-#botonIrArriba:hover{
-	color: #A0A0A0;
-}
-
-#botonIrProyectos{
-	padding-right: 25px;
-	font-size: 15px;
-	background: transparent;
-	font-family: Verdana;
-	font-weight: bold;
-	color: white;
-	border: none;
-}
-#botonIrProyectos:hover{
-	color: #A0A0A0;
-}
-
-#botonIrContactos{
-	padding-right: 25px;
-	font-size: 15px;
-	background: transparent;
-	font-family: Verdana;
-	font-weight: bold;
-	color: white;
-	border: none;
-}
-#botonIrContactos:hover{
-	color: #A0A0A0;
-}
-
-#botonRecargar{
-	padding-right: 25px;
-	font-size: 20px;
-	background: transparent;
-	font-family: Verdana;
-	font-weight: bold;
-	color: white;
-	border: none;
-}
-#botonRecargar:hover{
-	color: #A0A0A0;
-}
-#brand{
+header h1{
 	text-transform: uppercase;
-	font-size: 20px;
-	padding: 15px;
+	text-align: left;
+	display: inline-block;
 }
-#menu{
-	padding-right: 25px;
-	padding: 15px;
-}
-
-/* Agrupacion de el cuerpo de la pagina*/
-.agruparCuerpo {
-	width: 1150px;	
-	margin: auto;
-}
-
-/* Estilos para las secciones y el texto dentro de estas*/
-.section1{
-	font-size: ;
-	font-family: Cambria;
-	padding-top: 50px;
-	width: auto;
-	height: 600px;
+header nav{
 	text-align: right;
-	background-color: #FFFFFF;
+	display: inline-block;
 }
-.imgMe{
-	padding-right: 80px;
-	font-family: Verdana;
-	float: left;
-	text-align: center;
+/*Estilos basicos del nav*/
+nav{
+	flex: 1;
 }
-.textAboutMe{
-	text-align: justify;
-	font-size: 25px;
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
 }
-
-.section2{
-	font-family: Cambria;
-	padding-top: 50px;
-	width: auto;
-	height: 600px;
-	text-align: right;
-	background-color: #EAEAEA;
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 15px;	
 }
-.proyectos{
-	float: left;
-	text-align: center;
-}
-.textoProyectos{
-	padding-right: 550px;
-	text-align: justify;
-	font-size: 25px;
-	float: right;
+nav ul li a:hover{
+	color: seagreen;
 }
 
-
-.section3{
-	font-family: Cambria;
-	padding-top: 50px;
-	width: auto;
-	height: 600px;
-	text-align: right;
-	background-color: #FFFFFF;
+/*Grid de body*/
+.principalContainer{
+	gap: 10px;
+	display: grid;
+	grid-template-areas: 
+		"header"
+		"main"
+		"footer";
 }
-.contacto{
-	float: left;
-	text-align: center;
+/*Grid de header*/
+.header{
+	background: lightpink;
+	grid-area: header;
 }
-.textoContacto{
-	padding-right: 655px;
-	text-align: justify;
-	font-size: 25px;
-	float: right;
+/*Grid de main*/
+.main{
+	background: lightblue;
+	grid-area: main;
 }
-
-/* Estilos del footer */
-
-footer{
-	font-family: Verdana;
-	text-align: center;
-	position: relative;
-	background-color: #FFFFFF;
-	color: grey;
-	width: 100%;
-	height: 5%;
-	margin: 0px auto;
-	padding-bottom: 30px;
-}
-.pie{
-	clear: both;
+/*Grid de footer*/
+.footer{
+	background: lightyellow;
+	grid-area: footer;
 }
 
-/* Color de links */
-
-a:link {color:#FFFAFA; text-decoration: none;}  /* unvisited link */
-
-a:visited {color:#FFFAFA; text-decoration: none;}  /* visited link */
-
-a:hover {color:#A0A0A0; text-decoration: none;}  /* mouse over link */
-
-a:active {color:#FFFAFA; text-decoration: none;}  /* selected link */
 
