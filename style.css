@@ -60,11 +60,20 @@ nav ul li a:hover{
 	background: lightpink;
 	grid-area: header;
 }
+
 /*Estilos de clase de main*/
 .main{
 	background: lightblue;
 	grid-area: main;
 }
+.section1{
+	display: flex;
+}
+.imgS1{
+}
+.textS1{	
+}
+
 /*Estilos de clase de footer*/
 .footer{
 	background: lightyellow;
