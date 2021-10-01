@@ -66,14 +66,9 @@ nav ul li a:hover{
 	background: lightblue;
 	grid-area: main;
 }
-.section1{
+.section{
 	display: flex;
 }
-.imgS1{
-}
-.textS1{	
-}
-
 /*Estilos de clase de footer*/
 .footer{
 	background: lightyellow;
@@ -96,6 +91,11 @@ nav ul li a:hover{
 		text-align: center;
 		display: block;
 		margin-left: 0px;
+	}
+	.section{
+		text-align: center;
+		align-items: center;
+		display: block;
 	}
 }
 
