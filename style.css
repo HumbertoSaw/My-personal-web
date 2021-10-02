@@ -11,12 +11,13 @@ html{
 body{
 	margin: 0 auto;
 }
-.headerWrap{
-	max-width: 60em;
-	margin: auto;
-}
+
 /*Estilos basicos del header*/
 header{
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	color: white;
 	align-items: center;
 	display: block;
 	background: skyblue;
@@ -32,7 +33,7 @@ header nav{
 }
 /*Estilos basicos del nav*/
 nav{
-	margin-left: 250px;
+	margin-left: 350px;
 	flex: 1;
 }
 nav ul li{
@@ -41,17 +42,17 @@ nav ul li{
 	margin-right: 30px;
 }
 nav ul li a{
-	color: black;
+	color: white;
 	text-decoration: none;
 	font-size: 15px;	
 }
 nav ul li a:hover{
-	color: seagreen;
+	color: white;
 }
 
 /*Grid de body*/
 .principalContainer{
-	gap: 10px;
+	/*gap: 10px;*/
 	display: grid;
 	grid-template-areas: 
 		"header"
@@ -60,22 +61,43 @@ nav ul li a:hover{
 }
 /*Estilos de clase de header*/
 .header{
-	background: deepskyblue;
+	background-color: #114666 ;
 	grid-area: header;
+}
+.headerWrap{
+	max-width: 60em;
+	margin: auto;
 }
 
 /*Estilos de clase de main*/
 .main{
-	max-width: 55em;
-	margin: auto;
-	background: lightblue;
 	grid-area: main;
 }
-.section{
+.mainWrap{
+	max-width: 50em;
+	margin: auto;
+}
+.section1{
+	margin-top: 80px;
+	background-color: white;
 	display: flex;
 }
+.section2{
+	margin-top: 80px;
+	background-color: lightgrey;
+	display: flex;
+}
+.section3{
+	margin-top: 80px;
+	background-color: white;
+	display: flex;
+}
+.mainSectionText{
+	margin-left: 200px;
+}
 /*Estilos de clase de footer*/
-.footer{
+.footer{s
+	margin-top: 50px;
 	background: lightyellow;
 	grid-area: footer;
 }
@@ -86,6 +108,7 @@ nav ul li a:hover{
 		background-color: blue;
 	}
 	header{
+		height: 60px;
 		align-items: center;
 	}
 	header h1{
@@ -97,11 +120,22 @@ nav ul li a:hover{
 		display: block;
 		margin-left: 0px;
 	}
-	.section{
+	.section1{
+		text-align: center;
+		align-items: center;
+		display: block;
+	}
+	.section2{
+		text-align: center;
+		align-items: center;
+		display: block;
+	}
+	.section3{
 		text-align: center;
 		align-items: center;
 		display: block;
 	}
 }
+
 
 
