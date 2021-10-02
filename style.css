@@ -9,8 +9,11 @@ html{
 }
 /*Estilos basicos del body*/
 body{
-	max-width: 60em;
 	margin: 0 auto;
+}
+.headerWrap{
+	max-width: 60em;
+	margin: auto;
 }
 /*Estilos basicos del header*/
 header{
@@ -57,12 +60,14 @@ nav ul li a:hover{
 }
 /*Estilos de clase de header*/
 .header{
-	background: lightpink;
+	background: deepskyblue;
 	grid-area: header;
 }
 
 /*Estilos de clase de main*/
 .main{
+	max-width: 55em;
+	margin: auto;
 	background: lightblue;
 	grid-area: main;
 }
