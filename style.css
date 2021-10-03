@@ -14,6 +14,8 @@ body{
 
 /*Estilos basicos del header*/
 header{
+	padding-top: 5px;
+	font-family: Verdana;
 	position: fixed;
 	width: 100%;
 	height: 50px;
@@ -23,6 +25,7 @@ header{
 	background: skyblue;
 }
 header h1{
+	font-size: 25px;
 	text-transform: uppercase;
 	text-align: left;
 	display: inline-block;
@@ -71,44 +74,69 @@ nav ul li a:hover{
 
 /*Estilos de clase de main*/
 .main{
+	color: #2C2C2C;
+	font-family: Verdana;
 	grid-area: main;
 }
 .mainWrap{
+	display: flex;
 	max-width: 50em;
 	margin: auto;
+	
 }
 .section1{
-	margin-top: 80px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin-top: 50px;
 	background-color: white;
+	
+}
+.imgText{
+	font-family: Verdana;
+	font-weight: bold;
+	color: #2C2C2C;
 	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-bottom: 15px;
 }
 .section2{
-	margin-top: 80px;
-	background-color: lightgrey;
-	display: flex;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #EAEAEA;
+	
 }
 .section3{
-	margin-top: 80px;
-	background-color: white;
-	display: flex;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: white;	
+}
+.section3 ul li a{
+	text-decoration: none;
 }
 .mainSectionText{
-	margin-left: 200px;
+	margin-left: 250px;
 }
+.mainSectionText1{
+	margin-left: 90px;
+}
+
 /*Estilos de clase de footer*/
-.footer{s
+.footer{
+	height: 60px;
 	margin-top: 50px;
-	background: lightyellow;
+	background: white;
+	text-align: center;
 	grid-area: footer;
 }
 
 /*Media query para resoluciones de medianas*/
 @media(max-width: 942px){
 	.principalContainer{
-		background-color: blue;
+		
 	}
 	header{
-		height: 60px;
+		height: 80px;
 		align-items: center;
 	}
 	header h1{
@@ -116,24 +144,48 @@ nav ul li a:hover{
 		display: block;
 	}
 	header nav{
+		padding-top: 10px;
 		text-align: center;
 		display: block;
 		margin-left: 0px;
 	}
-	.section1{
-		text-align: center;
+	.mainWrap{
+		max-width: 35em;
+		margin: auto;
+		flex-direction: column;
 		align-items: center;
+		text-align: justify;
+	}
+}
+
+/*Media query para resoluciones de pequeñas*/
+@media(max-width: 586px){
+	.principalContainer{
+		
+	}
+	header{
+		height: 80px;
+		align-items: center;
+	}
+	header h1{
+		text-align: center;
 		display: block;
 	}
-	.section2{
+	header nav{
+		padding-top: 10px;
 		text-align: center;
-		align-items: center;
 		display: block;
+		margin-left: 0px;
 	}
-	.section3{
-		text-align: center;
+	.mainWrap{
+		max-width: 35em;
+		margin: auto;
+		flex-direction: column;
 		align-items: center;
-		display: block;
+		text-align: justify;
+	}
+	.mainSectionText1{
+		margin-right: 30px;
 	}
 }
 
