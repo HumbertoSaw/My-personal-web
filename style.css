@@ -33,7 +33,7 @@ header button{
 	outline: none;
 	background-color: transparent;
 	font-size: 20px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	text-align: left;
 	display: inline-block;
 }
@@ -43,7 +43,7 @@ header nav{
 }
 /*Estilos basicos del nav*/
 nav{
-	margin-left: 400px;
+	margin-left: 350px;
 	flex: 1;
 }
 nav ul li{
@@ -83,16 +83,16 @@ nav ul li button:hover{
 /*Estilos de clase de main*/
 .main{
 	color: #2C2C2C;
-	font-family: Verdana;
 	grid-area: main;
 }
 .mainWrap{
 	display: flex;
-	max-width: 50em;
+	max-width: 40em;
 	margin: auto;
 	
 }
 .section1{
+	font-size: 25px;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	margin-top: 50px;
@@ -101,7 +101,6 @@ nav ul li button:hover{
 }
 .imgText{
 	font-family: Verdana;
-	font-weight: bold;
 	color: #2C2C2C;
 	display: flex;
 	flex-direction: column;
@@ -109,12 +108,14 @@ nav ul li button:hover{
 	padding-bottom: 15px;
 }
 .section2{
+	font-size: 25px;
 	padding-top: 150px;
 	padding-bottom: 150px;
 	background-color: #EAEAEA;
 	
 }
 .section3{
+	font-size: 25px;
 	padding-top: 150px;
 	padding-bottom: 150px;
 	background-color: white;	
@@ -123,6 +124,7 @@ nav ul li button:hover{
 	text-decoration: none;
 }
 .mainSectionText{
+	font-family: Cambria;
 	margin-left: 250px;
 }
 .mainSectionText1{
@@ -138,7 +140,7 @@ nav ul li button:hover{
 	grid-area: footer;
 }
 
-/*Media query para resoluciones de medianas */
+/*Media query para resoluciones de medianas y menores*/
 @media(max-width: 942px){
 	header{
 		display: block;
@@ -165,6 +167,9 @@ nav ul li button:hover{
 	}
 	.mainSectionText1{
 		margin-right: 30px;
+	}
+	.mainSectionText ul{
+		list-style: none;
 	}
 }
 

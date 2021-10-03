@@ -1,3 +1,4 @@
+// Boton que regresa a la parte de arriba del html principal
 const botonIrArriba = document.querySelector("#botonIrArriba");
 
 botonIrArriba.addEventListener("click", function(){
@@ -9,7 +10,7 @@ botonIrArriba.addEventListener("click", function(){
 
 	})		
 });
-
+//boton que lleva a la seccion de proyectos
 const botonIrProyectos = document.querySelector("#botonIrProyectos");
 
 botonIrProyectos.addEventListener("click", function(){
@@ -21,7 +22,7 @@ botonIrProyectos.addEventListener("click", function(){
 
 	})		
 });
-
+//boton que lleva a la seccion de contactos
 const botonIrContactos = document.querySelector("#botonIrContactos");
 
 botonIrContactos.addEventListener("click", function(){
@@ -33,7 +34,7 @@ botonIrContactos.addEventListener("click", function(){
 
 	})		
 });
-
+//Boton que recarga la pagina
 const botonRecargar = document.querySelector("#botonRecargar");
 botonRecargar.addEventListener("click", function(){
 	window.location.reload();
