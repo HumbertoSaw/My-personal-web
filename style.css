@@ -23,7 +23,6 @@ header{
 	padding-bottom: 20px;
 	color: white;
 	align-items: center;
-	display: flex;
 	background: skyblue;
 }
 header button{
@@ -90,8 +89,7 @@ nav ul li button:hover{
 .mainWrap{
 	display: flex;
 	max-width: 40em;
-	margin: auto;
-	
+	margin: auto;	
 }
 .section1{
 	font-size: 25px;
@@ -187,6 +185,9 @@ nav ul li button:hover{
 		flex-direction: column;
 		align-items: center;
 		text-align: justify;
+	}
+	.headerWrap{
+		flex-direction: column;
 	}
 	.mainSectionText1{
 		margin-right: 30px;
