@@ -152,17 +152,18 @@ nav ul li button:hover{
 	header{
 		display: block;
 		align-items: center;
-		height: 200px;	
+		height: fit-content;
+		padding-bottom: 20px;	
 	}
 	header button{
-		font-size: 60px;
+		font-size: 50px;
 		display: block;
 		margin: 0px auto;
 		text-align: center;
 	}
 	header ul li button{
 		padding-top: 10px;
-		font-size: 40px;
+		font-size: 30px;
 	}
 	header nav{
 		height: fit-content;
@@ -198,16 +199,7 @@ nav ul li button:hover{
 		font-size: 25px;
 	}
 }
-@media(max-width: 300px){
-	}
-	header button{
-		font-size: 25px;
-	}
-	header ul li button{
-		font-size: 25px;
-	}
 
-}
 
 
 
