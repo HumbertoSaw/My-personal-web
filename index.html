@@ -2,145 +2,116 @@
 <html lang="en">
 <head>
 	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-	
 	<meta charset="utf-8">
 	<title>Humberto's personal web</title>
 	<meta name="descripcion" content="Born To Support">
 	<link rel="stylesheet" type="text/css" href="style.css">	
 </head>
 
-<body class="body">
-	
-	<nav>
-			<div id="agruparNav">
-				<div class="navbar" id="brand" style=" float: left;">
-					<button id="botonRecargar">
-						Humberto Sanchez
-					</button>
-				</div>
-
-				<div class="navbar" id="menu" style=" float: right;">
-
-					<button id="botonIrArriba">
-						Home
-					</button>
-					<button id="botonIrProyectos">
-						Proyects
-					</button>
-					<button id="botonIrContactos">
-						Contact
-					</button>						
-				</div>
-			</div>
-	</nav>
-
-	<header>
-		
+<body class="principalContainer">
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	<header class="header">
+		<div class="headerWrap">
+			<button id="botonRecargar">Humberto Sanchez</button>
+			<nav class="navbar">
+				<ul>
+					<li>
+						<button id="botonIrArriba">Home</button>
+					</li>
+					<li>
+						<button id="botonIrProyectos">Proyects</button>
+					</li>
+					<li>
+						<button id="botonIrContactos">Contacts</button>
+					</li>
+				</ul>
+			</nav>
+		</div> 
 	</header>
-				
-		<section class="section1">
-
-			<div class="agrupar1">
-
-				<div class="img-text">
-
-					<img class="img_creador =" src="img/yo.png">
-					<h1> Humberto Sánchez Cruz</h1>
-					DB Developer<br>
-					<a style="color: gray;" href="https://github.com/Lintori">Lintori</a>
-				</div>
-				
-
-				<div class="texto-AboutMe">		
-					<article>
-						<p>
-							About me: Im a student at Intituto Tecnologico de Chetumal, where i am currently studying computerstystems engineering.<br>
-							<br>
-							At the moment im collaborating as a DB developer in <a style="color: #609DBA ;" href="https://github.com/Lintori">Lintori</a>, an open source organization.<br>
-							<br>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+		<div class="main">			
+			<section class="section1">
+				<div class="mainWrap">
+					<div class="imgText">
+						<img src="img/v2.png">
+							<div style="font-size:25px; font-weight: bold; font-family: Verdana;">
+								Humberto Sánchez Cruz<br>
+							</div>
 							
-							I am currently interested in learning:
-							<ul>
-								<li>
-									Java Script
-								</li>
-								<li>
-									Docker
-								</li>
-								<li>
-									Data base Developing
-								</li>
-								<li>
-									FrontEnd Desing
-								</li>
-							</ul>
-						</p>
-					</article>
-				</div>	
-			</div>		
-		</section>
+							<br>
+							<div style="font-size: 15px">
+								DB Developer<br>
+							</div>
+							<a style="color: #B8B8B8; text-decoration: none; font-size: 15px;" href="https://github.com/Lintori">Lintori ⛩</a>
+					</div>
+					<div class="mainSectionText1"> 
+						About me: Im a student at Intituto Tecnológico de Chetumal, where i am currently studying computerstystems engineering in fifth semester.<br>
+						<br>
+						At the moment im collaborating as a DB and conecctions developer in <a style="color: #609DBA ; text-decoration: none;" href="https://github.com/Lintori">Lintori</a>, an open source organization, on the Rebyu API proyect.<br>
+						<br>
+							
+						I am currently learning:
+						<ul>
+							<li>
+								Java Script
+							</li>
+							<li>
+								Docker
+							</li>
+							<li>
+								Data base Developing and backend
+							</li>
+							<li>
+								FrontEnd Desing
+							</li>
+						</ul>
+					</div>
+				</div>			
+			</section>
 
-		<section class="section2">
-
-			<div class="agrupar2">
-
-				<div class="proyectos" style="font-family: Verdana;">
-					<a name="proyects"></a>
-					<h1>Proyects</h1>			
+			<section class="section2">
+				<div class="mainWrap">
+					<div style="font-size:25px; font-weight: bold; font-family: Verdana;">
+						Proyects
+					</div>
+					<div class="mainSectionText">
+						<ul>
+							<li>
+								This
+							</li>
+							<li>
+								<a style="text-decoration: none; color: #2C2C2C;" href="https://github.com/Lintori/Rebyu">Rebyu</a>
+							</li>
+							<li>
+								Gemini
+							</li>
+						</ul>
+					</div>
 				</div>
-				
-				<div class="texto-proyectos">		
-					<article>
-						<p>
-							<ul>
-								<li>
-									This
-								</li>
-								<li>
-									Rebyu
-								</li>
-								<li>
-									Gemini ClipBoard
-								</li>
-							</ul>
-						</p>
-					</article>
-				</div>	
-			</div>		
-		</section>
-
-		<section class="section3">
-
-			<div class="agrupar3">
-
-				<div class="contacto" style="font-family: Verdana;">
-					<a name="contact"></a>
-					<h1>Contact</h1>			
+			</section>
+			<section class="section3">
+				<div class="mainWrap">
+					<div style="font-size:25px; font-weight: bold; font-family: Verdana;">
+						Contacts
+					</div>
+					<div class="mainSectionText"> 
+						<ul>
+							<li>
+								<a style="color: black;" href="https://github.com/HumbertoSaw">GitHub</a>
+							</li>
+							<li>
+								<a style="color: black;" href="https://twitter.com/kevlar_Madoka">Twitter</a>
+							</li>
+							<li>
+								<a style="color: black;" href="mailto:humbertosc321@gmail.com">Gmail</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-				
-				<div class="texto-contacto" >		
-					<article>
-						<p>
-							<ul>
-								<li>
-									<a style="color: black;" href="https://github.com/HumbertoSaw">GitHub</a>
-								</li>
-								<li>
-									<a style="color: black;" href="https://twitter.com/kevlar_Madoka">Twitter</a>
-								</li>
-								<li>
-									<a style="color: black;" href="mailto:humbertosc321@gmail.com">Gmail</a>
-								</li>
-							</ul>
-						</p>
-					</article>
-				</div>	
-			</div>		
-		</section>
-
-		
-
-	<footer class="pie">
+			</section>
+			
+		</div>
+	<footer class="footer">
 		Created by Humberto S. in 2021
 	</footer>
 	<script src="app.js" language="javascript" type="text/javascript"></script>
