@@ -107,6 +107,12 @@ nav ul li button:hover{
 	text-align: center;
 	padding-bottom: 15px;
 }
+.imgText img{
+	border-radius: 10%;
+	max-width:222px;
+	max-height: 280px;
+	width: auto;
+}
 .section2{
 	font-size: 25px;
 	padding-top: 150px;
@@ -133,6 +139,7 @@ nav ul li button:hover{
 
 /*Estilos de clase de footer*/
 .footer{
+	font-family: Verdana;
 	height: 60px;
 	margin-top: 50px;
 	background: white;
@@ -170,6 +177,14 @@ nav ul li button:hover{
 	}
 	.mainSectionText ul{
 		list-style: none;
+	}
+	.imgText img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width:222px;
+		max-height: 280px;
+
 	}
 }
 
