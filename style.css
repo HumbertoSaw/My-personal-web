@@ -165,6 +165,7 @@ nav ul li button:hover{
 		font-size: 40px;
 	}
 	header nav{
+		height: fit-content;
 		padding-top: 15px;
 		text-align: center;
 		display: block;
@@ -196,6 +197,16 @@ nav ul li button:hover{
 	.imgDesc1{
 		font-size: 25px;
 	}
+}
+@media(max-width: 300px){
+	}
+	header button{
+		font-size: 25px;
+	}
+	header ul li button{
+		font-size: 25px;
+	}
+
 }
 
 
