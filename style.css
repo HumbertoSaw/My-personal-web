@@ -148,11 +148,11 @@ nav ul li button:hover{
 }
 
 /*Media query para resoluciones de medianas y menores*/
-@media(max-width: 942px){
+@media(max-width: 1000px){
 	header{
 		display: block;
 		align-items: center;
-		height: 80px;	
+		height: 100px;	
 	}
 	header button{
 		display: block;
@@ -184,9 +184,10 @@ nav ul li button:hover{
 		margin-right: auto;
 		max-width:222px;
 		max-height: 280px;
-
 	}
 }
+
+
 
 
 
