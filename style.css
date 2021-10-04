@@ -113,6 +113,9 @@ nav ul li button:hover{
 	max-height: 280px;
 	width: auto;
 }
+.imgDesc1{
+	padding-top: 15px
+}
 .section2{
 	font-size: 25px;
 	padding-top: 150px;
@@ -196,6 +199,7 @@ nav ul li button:hover{
 		max-height: 280px;
 	}
 	.imgDesc1{
+		padding-top: 15px;
 		font-size: 25px;
 	}
 }
