@@ -23,7 +23,7 @@ header{
 	padding-bottom: 20px;
 	color: white;
 	align-items: center;
-	display: block;
+	display: inline-flex;
 	background: skyblue;
 }
 header button{
