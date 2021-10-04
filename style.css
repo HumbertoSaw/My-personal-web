@@ -152,18 +152,26 @@ nav ul li button:hover{
 	header{
 		display: block;
 		align-items: center;
-		height: 100px;	
+		height: 200px;	
 	}
 	header button{
+		font-size: 60px;
 		display: block;
 		margin: 0px auto;
 		text-align: center;
 	}
-	header nav{
+	header ul li button{
 		padding-top: 10px;
+		font-size: 40px;
+	}
+	header nav{
+		padding-top: 15px;
 		text-align: center;
 		display: block;
 		margin-left: 0px;
+	}
+	.main{
+		padding-top: 200px;
 	}
 	.mainWrap{
 		max-width: 35em;
@@ -184,6 +192,9 @@ nav ul li button:hover{
 		margin-right: auto;
 		max-width:222px;
 		max-height: 280px;
+	}
+	.imgDesc1{
+		font-size: 25px;
 	}
 }
 
