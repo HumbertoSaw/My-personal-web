@@ -23,7 +23,7 @@ header{
 	padding-bottom: 20px;
 	color: white;
 	align-items: center;
-	display: inline-flex;
+	display: flex;
 	background: skyblue;
 }
 header button{
@@ -45,7 +45,6 @@ header nav{
 }
 /*Estilos basicos del nav*/
 nav{
-	margin-left: 350px;
 	flex: 1;
 }
 nav ul li{
@@ -78,7 +77,8 @@ nav ul li button:hover{
 	grid-area: header;
 }
 .headerWrap{
-	max-width: 60em;
+	display: flex;
+	width: 60em;
 	margin: auto;
 }
 
@@ -181,8 +181,9 @@ nav ul li button:hover{
 		padding-top: 100px;
 	}
 	.mainWrap{
-		max-width: 35em;
+		width: 35em;
 		margin: auto;
+		display: flex;
 		flex-direction: column;
 		align-items: center;
 		text-align: justify;
